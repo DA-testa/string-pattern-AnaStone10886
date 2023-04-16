@@ -7,7 +7,7 @@ def read_input():
         p = input()
         t = input()   
     elif "F" in str:
-        fileName = "./tests/"+ input()
+        fileName = "./tests/06"
         file = open(fileName, "r")
         p = file.readline()
         t = file.readline()
